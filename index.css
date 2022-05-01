@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    background-color: #444;
+}
+  section{
+      background-color: #444;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+     width: auto;
+     height: 700px;
+     margin: auto;
+     
+      
+  }
+  .title{
+      background-color: #999;
+      margin-bottom: 10px;
+      border: 2px solid black;
+      color: blue;
+      width: auto;
+      padding: 6px;
+      border-radius: 13px;
+     
+
+  }
+  .style-cal{
+      width: 500px;
+      height: 650px;
+      margin: auto;
+  }
+  input{
+      width: 100%;
+      background-color: #111;
+      color: white;
+      cursor: pointer;
+      font-size: 30px;
+      padding: 30px;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      /* box-shadow: inset 2px 3px 10px rgb(110, 110, 110); */
+      
+  }
+  input:active{
+      background-color: rgb(74, 247, 74);
+
+    
+}
+  .result{
+      background-color: white;
+      color: #111;
+      padding: 28px 40px;
+      border-radius: 10px 10px 0px 0px;
+  }
+  .inc-height{
+      padding: 80px 0px;
+      
+  }
+ 
+  .ch-color{
+      background-color: aqua;
+  }
+  .btn{
+      width: 100px;
+      height: 60px;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      background: #03a9f4;
+  }
+  @media(max-width:900px){
+    input{
+        width: 100%;
+        padding: auto;
+        
+        
+    }
+    .style-cal{
+        width: auto;
+        /* padding: 10px; */
+       
+    }
+
+  }
